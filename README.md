@@ -1,4 +1,4 @@
-# k8s_provision_terraform
+# k8s_provision_terraform_centos
 
 We can use this terraform playbook to create k8s cluster on AWS.It will create cluster on existing VPC and will use default Security Group, these details we can provide in variable file. To create cluster terraform needs aws account with IAM, S3 and ec2-instance create and get policy access. terraform will also create a role for cluster nodes to push data on S3.
 
